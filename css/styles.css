@@ -137,33 +137,49 @@ body,html{
 .testimonials{
     background-color: #f00;
     color: #fff;
-    text-align: center;
     margin-top: 0px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 .cards{
-    /* margin-top: 8px; */
-    /* padding-top: 8px; */
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px 35px;
     justify-content: center;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 30px;
+    /* padding-left: 40px; */
+    
+}
+.outside{
+    border: 1px solid #fff;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;    
 }
 .carditem{
-    border: 1px solid #fff;
-    padding: 20px 40px 20px 20px !important;
-    text-align: start;
+text-align: start;
 }
-.pics{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.carditem img{
+    padding-top: 5px;
+    margin-right: 8px;
+}
 
+.name{
+    margin-left: 5px;
+    align-content: center;
 }
-.pics img{
-    padding-right: 5px;
+.footer{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
-.pics1{
-   align-items: center;
+.images{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.images span{
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 10px;
 }
