@@ -121,19 +121,39 @@ body,html{
     justify-content: center;
     align-content: center;
 }
-.mid-section img{
-    width: 350px;
-    height: 350px;
+.griditem1{
+    background-image: url(../images/cleaner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+
 }
-.mid-section h2{
-    /* padding-bottom: 40px; */
-    margin-bottom: 10px;
+.griditem4{
+    background-image: url(../images/tiled-pressure-jetting.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
 }
 .griditem2{
     padding-top: 40px;
     padding-left: 35px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
+    align-items: center;
 }
+.griditem3{
+    padding-top: 40px;
+    /* padding-left: 35px; */
+    /* padding-bottom: 10px; */
+    padding-right: 30px;
+}
+
+.mid-section h2{
+    /* padding-bottom: 40px; */
+    margin-bottom: 10px;
+}
+
 .testimonials{
     background-color: #f00;
     color: #fff;
@@ -154,6 +174,7 @@ body,html{
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 15px;    
+    padding-right: -30px;
 }
 .carditem{
 text-align: start;
